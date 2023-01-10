@@ -11,18 +11,20 @@ Sub Stocks()
         Dim O_P As Double ' Opening Price variable
         O_P = 0
         Dim C_P As Double ' Closing price variable
-        
         C_P = 0
         Dim Y_C As Double   'Yearly change variable
-        
-        
+        Y_C = 0
         Dim Per_C As Double 'Percentage change variable
-        
+        Per_C = 0
         'max variabliables for greatest values of data bonus section
                
         Dim maxtv As Double
+        maxtv = 0
         Dim maxd As Double
+        maxd = 0
         Dim maxi As Double
+        maxi = 0
+        
         
        ' Variable to remember location of each Ticker symbol starting Below label
         Dim Rmem As Integer
@@ -199,5 +201,6 @@ Sub Stocks()
 
    Next ws
 End Sub
+
 
 
