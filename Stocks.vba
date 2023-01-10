@@ -32,11 +32,7 @@ Sub Stocks()
     
         lastrow = ws.Cells(rows.count, 1).End(xlUp).Row
         
-        
-        ' Determine Summary Last Row of column & set it as integer
-        Dim SLrow As Integer
-        SLrow = ws.Cells(rows.count, 9).End(xlUp).Row
-        
+              
               
         ' Label 1st Cell on each column based on data under it
             ws.Cells(1, 9).value = "Ticker"
@@ -132,7 +128,7 @@ Sub Stocks()
             Next i
        
            
-            For j = 2 To SLrow
+            For j = 2 To Rmem - 1
             
                     ' Conditional format to change ws.Cells color on Column 10 based on negative or positive values
             
