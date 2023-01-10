@@ -1,4 +1,4 @@
-Attribute VB_Name = "Module1"
+
 Sub Stocks()
 
    For Each ws In Worksheets
