@@ -4,5 +4,5 @@ VBA Script to analyze daily stock data represented by various ticker symbols and
 
 Screenshots of results are separated per worksheet which was three.
 
-It also applies conditional formatting to change the colors of certain cells depending on the value in them and populates the greatest values asked for from the summary section.
+It also applies conditional formatting to change the colors of certain cells depending on the value in them, then populates the greatest % increase&decrease and greatest total stock volume from the summary section.
 
