@@ -1,8 +1,8 @@
 # VBA-challenge
 
-VBA Script to analyze daily stock data represented by various ticker symbols and summarize the data into yearly stock data.
+VBA Script to analyze daily stock data represented by various ticker symbols and summarize the data into yearly stock data looping through the daily data to compile it into yearly data.
 
-Screenshots of results are separated per worksheet which was three
+Screenshots of results are separated per worksheet which was three.
 
-Vba script may need to be ran twice before it applies conditional formatting and populates the greatest values asked for from the summary section!
+It also applies conditional formatting to change the colors of certain cells depending on the value in them and populates the greatest values asked for from the summary section.
 
